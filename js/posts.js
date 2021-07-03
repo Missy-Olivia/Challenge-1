@@ -7,11 +7,6 @@ async function getPost(){
     const post = await response.json();
     console.log(post.title);
 
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/1`)
-    const user = await resp.json();
-    
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
-
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
 
@@ -26,9 +21,6 @@ async function getPost1(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/2`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -44,9 +36,6 @@ async function getPost2(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/3`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -61,9 +50,6 @@ async function getPost3(){
 
     const post = await response.json();
     console.log(post.title);
-const resp = await fetch(`https://jsonplaceholder.typicode.com/users/4`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -78,10 +64,7 @@ async function getPost4(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/5`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
-
+    
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
 
@@ -95,9 +78,6 @@ async function getPost5(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/6`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -112,9 +92,6 @@ async function getPost6(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/7`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -130,9 +107,6 @@ async function getPost7(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/8`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -148,9 +122,6 @@ async function getPost8(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/9`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
@@ -166,9 +137,6 @@ async function getPost9(){
 
     const post = await response.json();
     console.log(post.title);
-    const resp = await fetch(`https://jsonplaceholder.typicode.com/users/10`)
-    const user = await resp.json();
-    document.getElementById("head").innerHTML= `${user.name}'s Posts` ;
 
     document.getElementById("title").innerHTML = post.title;
     document.getElementById("posts").innerHTML = post.body;
